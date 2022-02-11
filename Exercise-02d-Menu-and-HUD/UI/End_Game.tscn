@@ -1,6 +1,7 @@
-[gd_scene load_steps=2 format=2]
+[gd_scene load_steps=3 format=2]
 
 [ext_resource path="res://UI/End_Game.gd" type="Script" id=1]
+[ext_resource path="res://Assets/87bb3bdbcb05f5fa532345aca68657c8.jpg" type="Texture" id=2]
 
 [node name="End_Game" type="Control"]
 anchor_right = 1.0
@@ -9,6 +10,11 @@ script = ExtResource( 1 )
 __meta__ = {
 "_edit_use_anchors_": false
 }
+
+[node name="Sprite" type="Sprite" parent="."]
+position = Vector2( 517, 315 )
+scale = Vector2( 2.031, 1.776 )
+texture = ExtResource( 2 )
 
 [node name="Play" type="Button" parent="."]
 margin_left = 462.0
